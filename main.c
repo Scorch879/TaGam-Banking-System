@@ -268,7 +268,9 @@ int main()
 							default:
 								system("cls");
 								logo();
+								setColor(12); //Red
 								printf("\n\t\t\t\t\t  Sorry. Invalid Choice :(\n");
+								sleep(1);
 								goto services;
 	            			
 						}
