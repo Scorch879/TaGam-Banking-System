@@ -239,6 +239,7 @@ int main()
             
 			case '3': //Belongs to choice_1 (Other Services
                {
+		       services:
                		system("cls");
     				logo();
     				setColor(14); //Yellow
@@ -264,6 +265,11 @@ int main()
 									printf("\n\n\t\t\t\t\t   Returned to Main Menu!");
 	            					break; 
 								}
+							default:
+								system("cls");
+								logo();
+								printf("\n\t\t\t\t\t  Sorry. Invalid Choice :(\n");
+								goto services;
 	            			
 						}
                	break;
